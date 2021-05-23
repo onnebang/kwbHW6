@@ -22,3 +22,5 @@ notifications:
  email:
    recipients: 
      - mwon0408@gmail.com
+
+script: mvn install -Pintegration-tests -Dandroid.device=test
